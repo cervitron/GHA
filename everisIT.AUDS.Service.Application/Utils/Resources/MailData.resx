@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ApplicationName" xml:space="preserve">
+    <value>AUDS</value>
+  </data>
+  <data name="BodyCreateVulnerability" xml:space="preserve">
+    <value>&lt;p&gt;Hola&lt;strong&gt; {0}&lt;/strong&gt;.&lt;br /&gt;&lt;br /&gt;La aplicaci&amp;oacute;n &lt;strong&gt;{1}&lt;/strong&gt; contiene vulnerabilidades &lt;span style="color: #ff9900;"&gt;&lt;strong&gt;{2}&lt;/strong&gt; &lt;/span&gt;pendientes de solucionar o indicar fecha estimada de resoluci&amp;oacute;n, os recordamos que deben ser solucionadas o en su defecto debe ser informada su estimaci&amp;oacute;n de resoluci&amp;oacute;n en un plazo m&amp;aacute;ximo de &lt;strong&gt;{3} d&amp;iacute;as&lt;/strong&gt; desde su detecci&amp;oacute;n. Ha transcurrido dicho plazo y a&amp;uacute;n no hemos recibido una respuesta por vuestra parte.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+&lt;table style="border:1px solid black;border-collapse:collapse;"&gt;
+		&lt;thead&gt;
+		    &lt;tr&gt;
+				&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Id vulnerability&lt;/th&gt;
+				&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Id Control&lt;/th&gt;
+				&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Vulnerability Description&lt;/th&gt;
+		    &lt;/tr&gt;
+	    &lt;/thead&gt;
+		&lt;tbody style="text-align:center;"&gt;{4}&lt;/tbody&gt;		
+	&lt;/table&gt;
+&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Les agradecer&amp;iacute;amos que solventaran o indicaran fecha de compromiso de dichas vulnerabilidades lo antes posible debido a su criticidad.&lt;br /&gt;&lt;br /&gt;Quedamos pendientes de su respuesta para realizar las pruebas y validar su mitigaci&amp;oacute;n.&lt;br /&gt;&lt;br /&gt;Para cualquier consulta contacte con &lt;strong&gt;hacking.Security.Corporate@emeal.nttdata.com &lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Muchas gracias, &lt;br /&gt;&lt;br /&gt;Un saludo.&lt;br&gt;&lt;/br&gt;En el siguiente enlace puede encontrar la guía de uso para usuarios de la herramienta de gestión de vulnerabilidades SafeAll &lt;a href="https://everisgroup.sharepoint.com/sites/OficinadeSeguridad/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario%2FGu%C3%ADa%20de%20usuario%20SafeAll%5Fv1%2E0%20%2D%20ES%2Epdf&amp;parent=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario&amp;p=true&amp;ct=1659599609973&amp;or=Teams-HL&amp;ga=1"&gt;(Enlace)&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="BodyEndFollowUp" xml:space="preserve">
+    <value>&lt;p&gt;Hola &lt;strong&gt;{0}&lt;/strong&gt;, &lt;br /&gt;&lt;br /&gt;Le informamos que la aplicaci&amp;oacute;n &lt;strong&gt;{1}&lt;/strong&gt; se encuentra libre de vulnerabilidades &amp;nbsp;&lt;strong&gt;cr&amp;iacute;ticas&lt;/strong&gt;, &lt;strong&gt;altas&lt;/strong&gt; y &lt;strong&gt;medias&lt;/strong&gt;, lo que implica un fin del seguimiento de las vulnerabilidades restantes en caso de que aun quede alguna vulnerabilidad pendiente de solucionar.&lt;br /&gt;&lt;br /&gt;Si la aplicaci&amp;oacute;n se encuentra en un estado de verificaci&amp;oacute;n para el paso a producci&amp;oacute;n, esta notificaci&amp;oacute;n es vinculante para autorizar el pase a producci&amp;oacute;n por parte del equipo de Hacking de la Oficina de Seguridad de Everis. Indicar que el resto de las vulnerabilidades detectada deben ser corregidas en la medida de los posible&lt;br /&gt;{2}&lt;br /&gt;Para cualquier consulta contacte con &lt;strong&gt;hacking.Security.Corporate@nttdata.com.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Un saludo.&lt;br&gt;&lt;br/&gt;En el siguiente enlace puede encontrar la guía de uso para usuarios de la herramienta de gestión de vulnerabilidades SafeAll &lt;a href="https://everisgroup.sharepoint.com/sites/OficinadeSeguridad/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario%2FGu%C3%ADa%20de%20usuario%20SafeAll%5Fv1%2E0%20%2D%20ES%2Epdf&amp;parent=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario&amp;p=true&amp;ct=1659599609973&amp;or=Teams-HL&amp;ga=1"&gt;(Enlace)&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="BodyEscalation" xml:space="preserve">
+    <value>&lt;p&gt;Hola &lt;strong&gt;{0}&lt;/strong&gt;, &lt;br /&gt;&lt;br /&gt;Le informamos que la aplicaci&amp;oacute;n &lt;strong&gt;{1}&lt;/strong&gt; ha superado el plazo de &lt;strong&gt;10 d&amp;iacute;as &lt;/strong&gt;establecido para la notificaci&amp;oacute;n de una fecha de compromiso para la resoluci&amp;oacute;n de la vulnerabilidades &lt;strong&gt;{3}&lt;/strong&gt;.&lt;br /&gt;&lt;br /&gt;Queda abierto la ventana para un posible &lt;strong&gt;escalado del bloqueo&lt;/strong&gt; de la aplicaci&amp;oacute;n auditada.&lt;br /&gt;&lt;br /&gt;&lt;strong&gt;
+&lt;table style="border:1px solid black;border-collapse:collapse;"&gt;
+ &lt;thead&gt;
+   &lt;tr&gt;
+&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;&lt;p style=" text-align:center;"&gt;Id vulnerability&lt;/p&gt;&lt;/th&gt;
+				&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Id Control&lt;/th&gt;
+				&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Vulnerability Description&lt;/th&gt;
+		    &lt;/tr&gt;
+	    &lt;/thead&gt;
+		&lt;tbody style=" text-align:center;"&gt;{2}&lt;/tbody&gt;		
+	&lt;/table&gt;
+&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Para cualquier consulta contacte con &lt;strong&gt;hacking.Security.Corporate@emeal.nttdata.com&lt;/strong&gt; lo antes posible.&lt;br /&gt;&lt;br /&gt;Un saludo.&lt;br&gt;&lt;br/&gt;En el siguiente enlace puede encontrar la guía de uso para usuarios de la herramienta de gestión de vulnerabilidades SafeAll &lt;a href="https://everisgroup.sharepoint.com/sites/OficinadeSeguridad/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario%2FGu%C3%ADa%20de%20usuario%20SafeAll%5Fv1%2E0%20%2D%20ES%2Epdf&amp;parent=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario&amp;p=true&amp;ct=1659599609973&amp;or=Teams-HL&amp;ga=1"&gt;(Enlace)&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="BodyMitigate" xml:space="preserve">
+    <value>&lt;p&gt;Hola &lt;strong&gt;{0}&lt;/strong&gt;, &lt;br /&gt;&lt;br /&gt;Ha finalizado el plazo indicado como fecha de mitigaci&amp;oacute;n introducido en SafeAll(https://secaudit.everis.com) de las siguientes vulnerabilidades de la auditoria &lt;strong&gt;{1}&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;
+&lt;table style="border:1px solid black;border-collapse:collapse;"&gt;
+		&lt;thead&gt;
+		    &lt;tr&gt;
+			&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Id    vulnerability&lt;/th&gt;
+	    &lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Id Control&lt;/th&gt;
+		&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Vulnerability Description&lt;/th&gt;
+		    &lt;/tr&gt;
+	    &lt;/thead&gt;
+		&lt;tbody style="text-align:center;"&gt;{2}&lt;/tbody&gt;		
+	&lt;/table&gt;
+&lt;/strong&gt;
+&lt;br /&gt;&lt;br /&gt;A partir de este momento podr&amp;aacute; cambiar el estado de la vulnerabilidad a &amp;ldquo;abierto&amp;rdquo;, &amp;ldquo;Retest pending&amp;rdquo;o modificar la fecha de compromiso por una nueva.&lt;br /&gt;&lt;br /&gt;Para cualquier consulta contacte con &lt;strong&gt;hacking.Security.Corporate@emeal.nttdata.com&lt;/strong&gt;&lt;br&gt;&lt;br/&gt;Un saludo.&lt;br&gt;&lt;br/&gt;En el siguiente enlace puede encontrar la guía de uso para usuarios de la herramienta de gestión de vulnerabilidades SafeAll &lt;a href="https://everisgroup.sharepoint.com/sites/OficinadeSeguridad/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario%2FGu%C3%ADa%20de%20usuario%20SafeAll%5Fv1%2E0%20%2D%20ES%2Epdf&amp;parent=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario&amp;p=true&amp;ct=1659599609973&amp;or=Teams-HL&amp;ga=1"&gt;(Enlace)&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="BodyUpdateState" xml:space="preserve">
+    <value>&lt;p&gt;Hola &lt;strong&gt;{0}&lt;/strong&gt;, &lt;br /&gt;&lt;br /&gt;Le informamos de que se ha producido un cambio de estado en las siguientes vulnerabilidades pertenecientes a aplicaciones &lt;strong&gt;{1}&lt;/strong&gt; de las que usted es responsable: &lt;br /&gt;&lt;br /&gt;
+&lt;strong&gt;
+&lt;table style="border:1px solid black;border-collapse:collapse;"&gt;
+		&lt;thead&gt;
+		    &lt;tr&gt;
+						&lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Id    vulnerability&lt;/th&gt;
+	    &lt;th style="border:1px solid black;background-color:#4769ae;text-align:center;"&gt;Id Control&lt;/th&gt;
+		&lt;th style="border:1px solid black;background-color:#4769ae;"&gt;Vulnerability Description&lt;/th&gt;
+		    &lt;/tr&gt;
+	    &lt;/thead&gt;
+		&lt;tbody style="text-align:center;"&gt;{2}&lt;/tbody&gt;		
+	&lt;/table&gt;
+&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;
+Para cualquier consulta contacte con &lt;strong&gt;hacking.Security.Corporate@emeal.nttdata.com.&lt;/strong&gt;&lt;br /&gt;&lt;br /&gt;Un saludo.&lt;br&gt;&lt;br/&gt;En el siguiente enlace puede encontrar la guía de uso para usuarios de la herramienta de gestión de vulnerabilidades SafeAll &lt;a href="https://everisgroup.sharepoint.com/sites/OficinadeSeguridad/Documentos%20compartidos/Forms/AllItems.aspx?id=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario%2FGu%C3%ADa%20de%20usuario%20SafeAll%5Fv1%2E0%20%2D%20ES%2Epdf&amp;parent=%2Fsites%2FOficinadeSeguridad%2FDocumentos%20compartidos%2FHacking%20Center%2F03%2E%20Documentacion%2F07%20%2D%20SafeAll%2F01%20%2D%20Guia%20usuario&amp;p=true&amp;ct=1659599609973&amp;or=Teams-HL&amp;ga=1"&gt;(Enlace)&lt;/a&gt;&lt;/p&gt;</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>A document has been added to the audit</value>
+  </data>
+</root>
