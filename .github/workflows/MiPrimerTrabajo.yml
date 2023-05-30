@@ -1,0 +1,10 @@
+name: mi promer flujo
+on: workflow_dispatch
+jobs:
+  MiPrimerTrabajo:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Hola
+        run: echo "Hola mundo "
+      - name: Adios  
+        run: echo "Adios"
