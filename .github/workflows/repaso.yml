@@ -1,4 +1,4 @@
-name: mi promer flujo
+name: repaso
 on: workflow_dispatch
 jobs:
   MiPrimerTrabajo:
