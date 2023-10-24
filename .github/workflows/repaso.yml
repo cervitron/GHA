@@ -1,0 +1,12 @@
+name: repaso
+on: workflow_dispatch
+jobs:
+  MiPirmeroJob:
+    runs-on: ubutu-latest
+    steps: 
+      - name: Hola
+        run: echo "hola"
+      - name: Adios
+        run: echo "Adios"
+      
+  
