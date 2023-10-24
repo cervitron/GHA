@@ -1,12 +1,10 @@
-name: repaso
-on: workflow_dispatch 
+name: mi promer flujo
+on: workflow_dispatch
 jobs:
-  MiPirmeroJob:
-    runs-on: ubutu-latest
-    steps: 
+  MiPrimerTrabajo:
+    runs-on: ubuntu-latest
+    steps:
       - name: Hola
-        run: echo "hola"
-      - name: Adios
+        run: echo "Hola mundo "
+      - name: Adios  
         run: echo "Adios"
-      
-  
