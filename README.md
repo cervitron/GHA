@@ -1,2 +1,2 @@
-# GHA
+.# GHA
 Git Hub Actions
