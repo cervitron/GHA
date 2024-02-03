@@ -1,11 +1,12 @@
 name: dotnet package
 
-on: [push]
+on: [push, dispatch_workflow]
 
 jobs:
   build:
 
     runs-on: ubuntu-latest
+    environment: cod
     strategy:
       matrix:
         dotnet-version: [ '3.1.x', '6.0.x' ]
